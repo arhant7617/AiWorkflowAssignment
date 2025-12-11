@@ -7,8 +7,7 @@ A lightweight workflow/graph engine built using Python and FastAPI, supporting n
 **Features**
 
 
-
-1. Minimal Workflow / Graph Engine
+1.Minimal Workflow / Graph Engine
 
 
 Nodes = Python functions that read/modify shared state
