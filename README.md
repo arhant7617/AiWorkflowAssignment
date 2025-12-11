@@ -15,7 +15,7 @@ A lightweight workflow/graph engine built using Python and FastAPI, supporting n
 		Looping until a condition is met      
 		Clean execution log + run state tracking
 
-	2.Simple Tool Registry:
+2. Simple Tool Registry:
 
 
 		Register any Python function as a tool
@@ -25,10 +25,10 @@ A lightweight workflow/graph engine built using Python and FastAPI, supporting n
 3. FastAPI Endpoints
 
 
-    **Endpoint**                              **Description**
-POST /graph/create	                  Create a new workflow graph
-POST /graph/run	                      Run the graph with an initial state
-GET /graph/state/{run_id}	            Fetch current workflow state
+		    **Endpoint**                              **Description**
+		POST /graph/create	                  Create a new workflow graph
+		POST /graph/run	                      Run the graph with an initial state
+		GET /graph/state/{run_id}	            Fetch current workflow state
 
 
 **PROJECT STRUCTURE**
