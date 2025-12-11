@@ -111,3 +111,5 @@ Example JSON for running:
 ![Uvicorn-img](https://github.com/arhant7617/AiWorkflowAssignment/blob/main/ss1.png)
 
 ![FastAPI-Endpoints](https://github.com/arhant7617/AiWorkflowAssignment/blob/main/ss3.png)
+
+![Web-socket](https://github.com/arhant7617/AiWorkflowAssignment/blob/main/ss4.png)
