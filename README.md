@@ -23,13 +23,14 @@ POST /graph/create	                  Create a new workflow graph
 POST /graph/run	                      Run the graph with an initial state
 GET /graph/state/{run_id}	            Fetch current workflow state
 
-app/
-│── engine.py                         # Core workflow engine (nodes, edges, branching, loops)
-│── tools.py                          # Tool registry + example tools
-│── models.py                         # Pydantic models for state + API schemas
-│── workflows.py                      # Example workflow definition
-│── main.py                           # FastAPI API routes
-│── __init__.py                        
+**PROJECT STRUCTURE**
+   app/
+   │── engine.py                         # Core workflow engine (nodes, edges, branching, loops)
+   │── tools.py                          # Tool registry + example tools
+   │── models.py                         # Pydantic models for state + API schemas
+   │── workflows.py                      # Example workflow definition
+   │── main.py                           # FastAPI API routes
+   │── __init__.py                        
 
 **Installation & Running the Project**
 
